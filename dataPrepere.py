@@ -10,7 +10,7 @@ from scipy.misc import imresize, imread
 import numpy as np
 
 faces  = []
-root = r'D:\Projects\faceRecognition\facesData\lfw'
+root = r'\' #database folder
 folders = os.listdir(root)
 for folder in folders:
     files = os.listdir(root + os.sep + folder)
