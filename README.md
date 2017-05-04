@@ -28,9 +28,17 @@ Same 60% remain but for new (random) basis. Barely noticeable face.
 
 ![figure_5](https://cloud.githubusercontent.com/assets/19648595/25662318/2c3cbc1a-3025-11e7-903d-038dab0de62c.png)
 
-And now most interesting. What if we will choose the most suitable basis for such kind of images. For this purpose I get images of various faces, and get directions (vectors) where such data have the most variance. To read here [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis). 
+And now most interesting. What if we will choose the most suitable basis for such kind of images. For this purpose I get images of various faces, and get directions (vectors) where such data have the most variance. To read here [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis). Such vectors will be our basis vectors indeed. Here how they looks like, order shows value of variance of data at such directions (vectors), e.g. first one is most valuable.
 
 ![figure_6](https://cloud.githubusercontent.com/assets/19648595/25662319/2c44acea-3025-11e7-8564-dac7a2b116ec.png)
+
+Now if I will restrict basis, at this time not in random order, but from last vectros, leaving most valuable.
+
 ![figure_7](https://cloud.githubusercontent.com/assets/19648595/25662320/2c52ec56-3025-11e7-8ae1-e70e212a54ce.png)
+
+And check how image will look like if we will leave only 20% of basis. Still face can be seen.
+
 ![figure_8](https://cloud.githubusercontent.com/assets/19648595/25662321/2c5c9e68-3025-11e7-89a8-30435b6435d6.png)
 
+That's pretty all.
+Thanx for reading. 
