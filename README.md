@@ -23,10 +23,12 @@ Well, actually instead of this basis we can use any orthonormal basis, for examp
 
 ![figure_4](https://cloud.githubusercontent.com/assets/19648595/25662317/2c391b0a-3025-11e7-864b-fc45dcdcd263.png)
 
-Same 60% remain but for new (random) basis
+MSE grow faster right? It can be seen on the next pic.
+Same 60% remain but for new (random) basis. Barely noticeable face.
 
 ![figure_5](https://cloud.githubusercontent.com/assets/19648595/25662318/2c3cbc1a-3025-11e7-903d-038dab0de62c.png)
 
+And now most interesting. What if we will choose the most suitable basis for such kind of images. For this purpose I get images of various faces, and get directions (vectors) where such data have the most variance. To read here [PCA](https://en.wikipedia.org/wiki/Principal_component_analysis). 
 
 ![figure_6](https://cloud.githubusercontent.com/assets/19648595/25662319/2c44acea-3025-11e7-8564-dac7a2b116ec.png)
 ![figure_7](https://cloud.githubusercontent.com/assets/19648595/25662320/2c52ec56-3025-11e7-8ae1-e70e212a54ce.png)
