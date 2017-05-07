@@ -41,4 +41,5 @@ And check how image will look like if we leave only 20% of basis. The face is st
 ![figure_8](https://cloud.githubusercontent.com/assets/19648595/25662321/2c5c9e68-3025-11e7-89a8-30435b6435d6.png)
 
 That's pretty all.
-Thanx for reading. 
+Thanx for reading.
+happy hanuka
